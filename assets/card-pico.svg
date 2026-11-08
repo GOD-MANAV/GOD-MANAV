@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="Pico HID Tool: Raspberry Pi Pico keystroke injector">
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1" spreadMethod="reflect">
+    <stop offset="0" stop-color="#10B981"/><stop offset="0.5" stop-color="#84CC16" stop-opacity="0.15"/><stop offset="1" stop-color="#84CC16"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="10s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#84CC16"/></linearGradient>
+  <radialGradient id="glow" cx="1" cy="0" r="1">
+    <stop offset="0" stop-color="#10B981" stop-opacity="0.28"/><stop offset="0.6" stop-color="#84CC16" stop-opacity="0.05"/><stop offset="1" stop-color="#84CC16" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="clip"><rect width="480" height="250" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="480" height="250" fill="#0B1020"/>
+  <rect width="480" height="250" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="430" cy="40" r="90" fill="none" stroke="#10B981" stroke-opacity="0.12"/>
+  <circle cx="430" cy="40" r="130" fill="none" stroke="#84CC16" stroke-opacity="0.08"/>
+</g>
+<rect x="32" y="30" width="56" height="56" rx="16" fill="url(#tile)"/>
+<g transform="translate(44 42) scale(1.333)" fill="none" stroke="#0B1020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></g>
+<text x="104" y="56" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Pico HID Tool</text>
+<text x="104" y="80" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#10B981">Raspberry Pi Pico keystroke injector</text>
+<text x="32" y="130" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CBD5E1">A rubber-ducky style HID device for security</text>
+<text x="32" y="154" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CBD5E1">research and learning, built on a Pico.</text>
+<rect x="32" y="196" width="69" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4"/><text x="66" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#10B981">Python</text><rect x="109" y="196" width="116" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4"/><text x="167" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#10B981">Raspberry Pi</text><rect x="232" y="196" width="84" height="26" rx="13" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4"/><text x="275" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#10B981">Hardware</text>
+<g transform="translate(436 209)" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M-8 8 8 -8M-2 -8h10v10"/>
+</g>
+<rect x="1" y="1" width="478" height="248" rx="19" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</svg>

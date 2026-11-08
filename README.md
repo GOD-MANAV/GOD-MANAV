@@ -1,109 +1,75 @@
-<!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Manav%20Yadav&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Builder%20%E2%80%A2%20Automation%20%E2%80%A2%20AI%20Tools&descAlignY=56&descSize=18" width="100%" alt="Manav Yadav" />
+  <img src="assets/hero.svg" width="100%" alt="Manav Yadav. I build tools that turn hours of busywork into one click." />
 </p>
 
 <p align="center">
   <a href="https://github.com/GOD-MANAV">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=640&lines=I+build+tools+that+save+people+time+%E2%9A%A1;Chrome+extensions+%E2%80%A2+AI+apps+%E2%80%A2+Automation;Game+dev+with+Unity+%F0%9F%8E%AE;Hardware+hacking+with+Raspberry+Pi+%F0%9F%94%A7" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=Chrome+extensions+that+do+the+clicking+for+you;AI+apps+that+remember+what+you+save;Games+that+teach+real+security+skills;Hardware+hacks+on+a+Raspberry+Pi+Pico" alt="What I build" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=GOD-MANAV&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/GOD-MANAV?label=Followers&style=for-the-badge&color=6366f1" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/GOD-MANAV?label=Stars&style=for-the-badge&color=f59e0b" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=GOD-MANAV&label=PROFILE+VIEWS&color=7c3aed&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/GOD-MANAV?label=FOLLOWERS&style=for-the-badge&color=0891b2&labelColor=0b1020" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/GOD-MANAV?label=STARS&style=for-the-badge&color=db2777&labelColor=0b1020" alt="Stars" />
 </p>
 
----
+<br/>
 
-## 🚀 About me
-
-```js
-const manav = {
-  building:   ["AI second brain for links", "Chrome automation tools", "Free open-source utilities"],
-  loves:      ["Automating boring work", "Clean UX", "Shipping things people actually use"],
-  exploring:  ["LLM agents", "Browser extensions (MV3)", "Game design"],
-  funFact:    "I once fit a playable Snake game inside a QR code 🐍",
-};
-```
-
-- 🔭 Working on **SaveSutra**, an AI "second brain" that turns any reel, video or link into searchable notes
-- 🌱 Learning more about **AI agents, TypeScript and system design**
-- ⚡ I like turning repetitive tasks into one-click tools
-
----
-
-## 🛠️ Tech stack
+<img src="assets/header-about.svg" width="100%" alt="About me" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,cs,html,css&perline=7" alt="Languages" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,supabase,firebase,vercel&perline=7" alt="Frameworks" /><br/>
-  <img src="https://skillicons.dev/icons?i=unity,raspberrypi,git,github,vscode,figma,linux&perline=7" alt="Tools" />
+  <img src="assets/about.svg" width="100%" alt="About Manav: a builder who automates the boring stuff, currently building SaveSutra." />
 </p>
 
----
+<br/>
 
-## 🌟 Featured projects
+<img src="assets/header-stack.svg" width="100%" alt="Tech stack" />
 
 <p align="center">
-  <a href="https://github.com/GOD-MANAV/savesutra">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GOD-MANAV&repo=savesutra&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="savesutra" />
-  </a>
-  <a href="https://github.com/GOD-MANAV/Mail-Merge-Pro">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GOD-MANAV&repo=Mail-Merge-Pro&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Mail-Merge-Pro" />
-  </a>
-  <a href="https://github.com/GOD-MANAV/Phishing-Attack-Serious-Game-using-Unity-Game-Engine">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GOD-MANAV&repo=Phishing-Attack-Serious-Game-using-Unity-Game-Engine&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Phishing game" />
-  </a>
-  <a href="https://github.com/GOD-MANAV/HID-Attack-Rubber-ducky-using-Raspberry-Pi-pico">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GOD-MANAV&repo=HID-Attack-Rubber-ducky-using-Raspberry-Pi-pico&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Pico HID" />
-  </a>
-  <a href="https://github.com/GOD-MANAV/Snake-Game-in-a-QR-code">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GOD-MANAV&repo=Snake-Game-in-a-QR-code&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Snake QR" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,cs,html,css&perline=7&theme=dark" alt="Languages" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,supabase,firebase,vercel&perline=7&theme=dark" alt="Frameworks and platforms" /><br/>
+  <img src="https://skillicons.dev/icons?i=unity,raspberrypi,git,github,vscode,figma,linux&perline=7&theme=dark" alt="Tools" />
 </p>
 
-| Project | What it does |
-|---|---|
-| 🧠 **[SaveSutra](https://github.com/GOD-MANAV/savesutra)** | Share any reel, video or link (even via WhatsApp) and get a summary, category and everything mentioned inside, browsable as list, table or whiteboard |
-| ✉️ **[Mail Merge Pro](https://github.com/GOD-MANAV/Mail-Merge-Pro)** | Free mail merge for Google Sheets + Gmail with templates, scheduling and attachments. No API keys, no fees |
-| 🎣 **[Phishing Serious Game](https://github.com/GOD-MANAV/Phishing-Attack-Serious-Game-using-Unity-Game-Engine)** | A Unity game that teaches people to spot phishing attacks |
-| 🔌 **[Pico HID Tool](https://github.com/GOD-MANAV/HID-Attack-Rubber-ducky-using-Raspberry-Pi-pico)** | A Raspberry Pi Pico keystroke-injection device for security research and learning |
-| 🐍 **[Snake in a QR Code](https://github.com/GOD-MANAV/Snake-Game-in-a-QR-code)** | A complete playable Snake game squeezed into a single QR code |
+<br/>
 
----
-
-## 📊 GitHub stats
+<img src="assets/header-projects.svg" width="100%" alt="Featured projects" />
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GOD-MANAV&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GOD-MANAV&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
+  <a href="https://github.com/GOD-MANAV/savesutra"><img src="assets/card-savesutra.svg" width="49%" alt="SaveSutra: AI second brain for links" /></a>
+  <a href="https://github.com/GOD-MANAV/Mail-Merge-Pro"><img src="assets/card-mailmerge.svg" width="49%" alt="Mail Merge Pro: free bulk email for Sheets and Gmail" /></a>
+  <a href="https://github.com/GOD-MANAV/Phishing-Attack-Serious-Game-using-Unity-Game-Engine"><img src="assets/card-phishing.svg" width="49%" alt="Phishing Serious Game: learn to spot phishing by playing" /></a>
+  <a href="https://github.com/GOD-MANAV/HID-Attack-Rubber-ducky-using-Raspberry-Pi-pico"><img src="assets/card-pico.svg" width="49%" alt="Pico HID Tool: Raspberry Pi Pico keystroke injector" /></a>
+  <a href="https://github.com/GOD-MANAV/Snake-Game-in-a-QR-code"><img src="assets/card-snakeqr.svg" width="49%" alt="Snake in a QR Code: a whole game in one QR code" /></a>
 </p>
+
+<br/>
+
+<img src="assets/header-stats.svg" width="100%" alt="GitHub stats" />
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=GOD-MANAV&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" alt="Contribution summary" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GOD-MANAV&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" width="100%" alt="Contribution graph" />
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" width="49%" alt="GitHub stats" />
+  <img src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" alt="Most committed languages" />
 </p>
-
-## 🏆 Trophies
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GOD-MANAV&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
+  <img src="https://streak-stats.demolab.com?user=GOD-MANAV&theme=tokyonight&hide_border=true&background=0B1020&ring=A78BFA&fire=F472B6&currStreakLabel=22D3EE" width="70%" alt="GitHub streak" />
 </p>
 
-## 🐍 Contribution snake
+<br/>
+
+<img src="assets/header-snake.svg" width="100%" alt="Contribution snake" />
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GOD-MANAV/GOD-MANAV/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/GOD-MANAV/GOD-MANAV/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GOD-MANAV/GOD-MANAV/output/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/GOD-MANAV/GOD-MANAV/output/snake-light.svg" width="100%" alt="A snake eating my contribution graph" />
   </picture>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" alt="" />
+  <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by. Keep building." />
 </p>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Thanks for stopping by. Keep building.">
+<defs>
+  <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset=".5" stop-color="#0891B2"/><stop offset="1" stop-color="#DB2777"/></linearGradient>
+  <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <clipPath id="clip"><rect width="1000" height="150" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1000" height="150" fill="#070B1A"/>
+  <path d="M0 96 Q62.5 82 125.0 96 T250 96 T375 96 T500 96 T625 96 T750 96 T875 96 T1000 96 T1125 96 T1250 96 T1375 96 T1500 96 T1625 96 T1750 96 T1875 96 T2000 96 L2000 150 L0 150 Z" fill="url(#w1)" opacity="0.35">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-500 0" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 112 Q50.0 102 100.0 112 T200 112 T300 112 T400 112 T500 112 T600 112 T700 112 T800 112 T900 112 T1000 112 T1100 112 T1200 112 T1300 112 T1400 112 T1500 112 T1600 112 T1700 112 T1800 112 T1900 112 T2000 112 L2000 150 L0 150 Z" fill="url(#w2)" opacity="0.3">
+    <animateTransform attributeName="transform" type="translate" values="-400 0;0 0" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <text x="500" y="58" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">Thanks for stopping by</text>
+  <text x="500" y="84" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace" font-size="14" fill="#94A3B8">keep building, keep shipping</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84" role="img" aria-label="Contribution snake">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+    <stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#14B8A6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1 0;0 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#34D399" stop-opacity="0.18"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1000" height="84" rx="20" fill="#0B1020"/>
+<rect width="1000" height="84" rx="20" fill="url(#fade)"/>
+<rect x="24" y="20" width="44" height="44" rx="13" fill="url(#g)"/>
+<text x="46" y="49" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace" font-size="17" font-weight="700" fill="#0B1020">05</text>
+<text x="88" y="51" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#F8FAFC">Contribution snake</text>
+<text x="388" y="50" font-family="'Cascadia Code', Consolas, 'SF Mono', Menlo, monospace" font-size="14" fill="#94A3B8">// it eats my commits every day</text>
+<rect x="88" y="62" width="282" height="3" rx="1.5" fill="url(#g)">
+  <animate attributeName="width" values="0;282" dur="1.2s" fill="freeze"/>
+</rect>
+<g fill="#34D399">
+  <circle cx="940" cy="42" r="4"><animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="956" cy="42" r="4" opacity=".6"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="972" cy="42" r="4" opacity=".3"><animate attributeName="opacity" values="1;.2;1" dur="1.8s" begin=".6s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

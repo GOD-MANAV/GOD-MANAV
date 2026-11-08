@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="250" viewBox="0 0 480 250" role="img" aria-label="Snake in a QR Code: A whole game in one QR code">
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1" spreadMethod="reflect">
+    <stop offset="0" stop-color="#14B8A6"/><stop offset="0.5" stop-color="#A3E635" stop-opacity="0.15"/><stop offset="1" stop-color="#A3E635"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="10s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#A3E635"/></linearGradient>
+  <radialGradient id="glow" cx="1" cy="0" r="1">
+    <stop offset="0" stop-color="#14B8A6" stop-opacity="0.28"/><stop offset="0.6" stop-color="#A3E635" stop-opacity="0.05"/><stop offset="1" stop-color="#A3E635" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="clip"><rect width="480" height="250" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="480" height="250" fill="#0B1020"/>
+  <rect width="480" height="250" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="430" cy="40" r="90" fill="none" stroke="#14B8A6" stroke-opacity="0.12"/>
+  <circle cx="430" cy="40" r="130" fill="none" stroke="#A3E635" stroke-opacity="0.08"/>
+</g>
+<rect x="32" y="30" width="56" height="56" rx="16" fill="url(#tile)"/>
+<g transform="translate(44 42) scale(1.333)" fill="none" stroke="#0B1020" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M21 14v7h-4M14 21v-3"/></g>
+<text x="104" y="56" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Snake in a QR Code</text>
+<text x="104" y="80" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#14B8A6">A whole game in one QR code</text>
+<text x="32" y="130" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CBD5E1">A complete, playable Snake game squeezed into</text>
+<text x="32" y="154" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#CBD5E1">a single scannable QR code.</text>
+<rect x="32" y="196" width="61" height="26" rx="13" fill="#14B8A6" fill-opacity="0.12" stroke="#14B8A6" stroke-opacity="0.4"/><text x="62" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#14B8A6">Batch</text><rect x="101" y="196" width="116" height="26" rx="13" fill="#14B8A6" fill-opacity="0.12" stroke="#14B8A6" stroke-opacity="0.4"/><text x="159" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#14B8A6">Size hacking</text><rect x="225" y="196" width="61" height="26" rx="13" fill="#14B8A6" fill-opacity="0.12" stroke="#14B8A6" stroke-opacity="0.4"/><text x="255" y="213" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#14B8A6">Games</text>
+<g transform="translate(436 209)" fill="none" stroke="#14B8A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M-8 8 8 -8M-2 -8h10v10"/>
+</g>
+<rect x="1" y="1" width="478" height="248" rx="19" fill="none" stroke="url(#edge)" stroke-width="2"/>
+</svg>
